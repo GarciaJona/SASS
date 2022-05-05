@@ -1,0 +1,115 @@
+body {
+    background-color: brown;
+}
+
+header {
+    display: flex;
+    background-color: rgb(51, 116, 116);
+    height: 100px;
+    padding-top: 50px;
+    justify-content: center;
+}
+
+header nav {
+    text-align: center;
+}
+
+header nav a {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+header nav a:hover {
+    color: rgb(159, 28, 185);
+}
+
+.dejanos-tu-consulta {
+    font-size: x-large;
+    font-family: montserrat Alternates;
+    background-color: #b8995a6b;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 1%;
+}
+
+form {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 300px;
+    padding: 16px;
+    border-radius: 10px;
+    background-color: rgba(204, 204, 204, 0.397);
+    margin-top: 95px;
+    margin-left: 42%;
+    box-shadow: 7px 13px 37px #000;
+}
+
+form label {
+    width: 72px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+form input[type="text"],
+form input[type="email"] {
+    width: 180px;
+    padding: 3px 10px;
+    border: 1px solid #f6f6f6;
+    border-radius: 3px;
+    background-color: #f6f6f6;
+    margin: 8px 0;
+    display: inline-block;
+}
+
+form input[type="submit"] {
+    width: 100%;
+    padding: 8px 16px;
+    margin-top: 32px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    display: block;
+    color: #fff;
+    background-color: #000;
+}
+
+form input[type="submit"]:hover {
+    cursor: pointer;
+}
+
+form textarea {
+    width: 100%;
+    height: 100px;
+    border: 1px solid #f6f6f6;
+    border-radius: 3px;
+    background-color: #f6f6f6;
+    margin: 8px 0;
+    resize: none;
+    display: block;
+    font-family: Montserrat Alternates;
+}
+
+footer{
+    background-color: rgba(120,120,120, .5);
+    line-height: 3;
+    text-align: center;
+    width: 100%;
+    margin-top: 0%;
+    font-family: Montserrat Alternates;
+}
+
+footer .p{
+    line-height: 3;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.footer-contacto{
+    margin-top: 29.5%;
+}
+
+.dejanos-tu-consulta{
+    font-size: x-large;
+    font-family: montserrat Alternates;
+    background-color:#b8995a6b;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 1%;
+}
